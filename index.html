@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Página web de Blog de Café">
+	<title>Blog de Café</title>
+	<!--Prefetch-->
+	<link rel="prefetch" href="cursos.html" as="document">
+	<!--Preload-->
+	<link rel="preload" href="css/normalize.css" as="style">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preload" href="css/styles.css" as="style">
+	<link rel="stylesheet" href="css/styles.css">
+<body>
+	<header class="header">
+		<nav class="barra contenedor">
+			<div>
+				<a href="index.html"><h1 class="logo no-margin">Blog<span>DeCafé</span></h1></a>
+			</div>
+			<div class="navegacion__links">
+				<a href="nosotros.html">Nosotros</a>
+				<a href="cursos.html">Cursos</a>
+				<a href="contacto.html">Contacto</a>
+			</div>
+		</nav>
+		<div class="header__contenido">
+			<h2>Blog de café con consejos y cursos</h2>
+			<p>Aprende de los expertos con las mejores recetas y consejos</p>
+		</div>
+	</header>
+	<main class="contenedor grid">
+		<div class="entradas">
+			<h2>Nuestro Blog</h2>
+			<!--Entrada 1-->
+			<article class="entrada-blog">
+				<picture>
+					<source loading="lazy" srcset="img/blog1.webp" type="image/webp" >
+					<img src="img/blog1.jpg" alt="imagenes de cafe" loading="lazy">
+				</picture>
+				<h3>Tipos de granos de café</h3>
+				<p>Corporis voluptatibus doloremque sed provident ullam odio eos assumenda animi, rem placeat. Nostrum, vel temporibus distinctio ipsum nisi nam ducimus incidunt animi.</p>
+				<a class="boton" href="entrada.html">Leer entrada</a>
+			</article>
+			<!--Entrada 2-->
+			<article class="entrada-blog">
+				<picture>
+					<source loading="lazy" srcset="img/blog2.webp" type="image/webp" >
+					<img src="img/blog2.jpg" alt="imagenes de cafe" loading="lazy">
+				</picture>
+				<h3>Tipos de granos de café</h3>
+				<p>Voluptate asperiores modi dolorum eaque deserunt illo omnis soluta voluptas? Tempore aliquid mollitia, distinctio, sed quam explicabo ipsa vero molestias, eius praesentium fuga numquam? Nostrum adipisci eum in esse voluptates aliquid dicta dolorum! Sed beatae saepe non sapiente quas illum!</p>
+				<a class="boton" href="entrada.html">Leer entrada</a>
+			</article>
+			<!--Entrada 3-->
+			<article class="entrada-blog">
+				<picture>
+					<source loading="lazy" srcset="img/blog3.webp" type="image/webp" >
+					<img src="img/blog3.jpg" alt="imagenes de cafe" loading="lazy">
+				</picture>
+				<h3>Tipos de granos de café</h3>
+				<p>Repellat earum consequatur iusto? Illum iusto corrupti dolorem mollitia odit perspiciatis molestiae beatae vel, voluptate qui accusantium? Sint harum magnam quod eius minus? Veritatis, autem tempore itaque culpa commodi sapiente placeat libero facilis! Quasi.</p>
+				<a class="boton" href="entrada.html">Leer entrada</a>
+			</article>
+		</div>
+		<aside class="sidebar">
+			<h2>Nuestros Cursos y Talleres</h2>
+			<div class="cursos">
+				<div class="curso">
+					<h4>Técnicas de extracción de café</h3>
+					<p><span>Precio:</span> Gratis</p>
+					<p><span>Cupo:</span> 20</p>
+					<a class="boton boton-marron" href="cursos.html">Mas información</a>
+				</div>
+				<div class="curso">
+					<h4>4 Recetas de café para principiantes</h3>
+					<p><span>Precio:</span> Gratis</p>
+					<p><span>Cupo:</span> 20</p>
+					<a class="boton boton-marron" href="cursos.html">Mas información</a>
+				</div>
+			</div>
+		</aside>
+	</main>
+	<footer class="footer">
+		<nav class="barra contenedor">
+			<div class="logo">
+				<a href="index.html"><h1 class="no-margin">Blog<span>DeCafé</span></h1></a>
+			</div>
+			<div class="navegacion__links">
+				<a href="nosotros.html">Nosotros</a>
+				<a href="cursos.html">Cursos</a>
+				<a href="contacto.html">Contacto</a>
+			</div>
+		</nav>
+	</footer>
+	<script src="js/modernizr.js"></script>
+</body>
+</html>
